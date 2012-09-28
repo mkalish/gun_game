@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Gun Game</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="username">Username</string>
+    <string name="pw">Password</string>
+    <string name="login">Login</string>
+    <string name="accout">Account</string>
+    <string  name="games">Games</string>
+
+</resources>

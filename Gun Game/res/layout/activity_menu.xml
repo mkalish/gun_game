@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	    <TextView
+	        android:id="@+id/text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:text="@string/app_name"
+	        android:paddingTop="50dp"
+	        tools:context=".MenuActivity" />
+	    <EditText
+	        android:id="@+id/username"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:hint="@string/username"
+	        tools:context=".MenuActivity"
+	        android:maxLines="1"
+	        android:layout_marginTop="75dp"
+	        android:layout_below="@+id/text"/>
+	    <EditText
+	        android:id="@+id/pw"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:inputType="textPassword"
+	        android:maxLines="1"
+	        android:layout_below="@+id/username"
+	        android:hint="@string/pw"
+	        tools:context=".MenuActivity"/>
+	    <Button 
+	        android:id="@+id/submit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/pw"
+	        android:text="@string/login"
+	        android:layout_marginTop="25dp"
+	        android:layout_centerHorizontal="true"/>
+</RelativeLayout>
